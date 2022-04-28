@@ -134,7 +134,6 @@ color: #94A2B3;
 
    &__content {
       display: flex;
-      flex-wrap: wrap;
       background-color: #FDF4F4;
       border-radius: 21px;
       padding: 30px 100px 30px 125px;
@@ -170,8 +169,11 @@ color: #94A2B3;
       min-height: 110px;
    }
 }
-
-
+@media (max-width:690px){
+   .cashback__content{
+      flex-wrap: wrap;
+   }
+}
 @media(max-width:1520px){
    .header__container{
       min-height: calc(70px + (130 - 70) * ((100vw - 320px)/(1520 - 320)));

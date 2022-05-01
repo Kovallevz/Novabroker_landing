@@ -1,4 +1,3 @@
-
 .wrapper{
    overflow: hidden;
    display: flex;
@@ -172,6 +171,7 @@ color: #94A2B3;
 }
 //asigurarea
 .asigurarea {
+   margin: 0 0 120px 0;
    // position: relative;
    // &__line{
    //    position: absolute;
@@ -232,6 +232,75 @@ color: #94A2B3;
       max-width: 300px;
    }
 }
+//telefon
+.telefon {
+   background-color: #EB242A;
+      background-size: cover;
+      width: 100%;
+   &__content {
+      display: flex;
+      padding: 54px 0 42px;
+      justify-content: space-between;
+      align-items: center;
+   }
+   
+
+   &__text {
+      font-weight: 400;
+      font-size: 40px;
+      line-height: 139%;
+      color: #FFFFFF;
+      max-width: 710px;
+      padding: 0 15px;
+   }
+   &__number {
+   display: inline-block;
+   vertical-align: top;
+   position: relative;
+   }
+
+   &__input {
+      max-width: 425px;
+      background: #FFFFFF;
+      box-shadow: inset -2.40556px -2.40556px 4.81111px rgba(255, 255, 255, 0.5), inset 2.40556px 2.40556px 4.81111px rgba(170, 170, 204, 0.25), inset 6.01389px 6.01389px 12.0278px rgba(170, 170, 204, 0.5), inset -6.01389px -6.01389px 12.0278px #FFFFFF;
+      border-radius: 48px;
+      font-weight: 500;
+      font-size: 26px;
+      line-height: 125%;
+      color: #616366;
+      padding: 20px 160px 20px 40px;
+      outline: none;
+      display: block;
+      cursor: pointer;
+      &::placeholder{
+         color: #6163667a;
+         font-size: 26px;
+      }
+   }
+
+   &__button {
+   position: absolute; 
+   top: 13px; 
+   right: 13px;
+   z-index: 2;
+   outline: none;
+   border: none;
+   display: inline-block;
+   color: #fff;
+   padding: 10px 10px;
+   background: #EB242A;
+   box-shadow: 6.01389px 6.01389px 12.0278px rgba(170, 170, 204, 0.5), -6.01389px -6.01389px 12.0278px #FFFFFF;
+   border-radius: 38.4889px;
+   cursor: pointer;
+   transition: background-color 0.3s ease 0s, box-shadow 0.3s ease 0s;
+      &:hover{
+      background-color: rgb(254, 45, 45);
+      box-shadow: 1px 1px 10px 5px rgb(242, 135, 135);
+      }
+      
+   }
+}
+
 @media (max-width:990px){
    .asigurarea__steps{
       flex-wrap: wrap;
@@ -243,10 +312,15 @@ color: #94A2B3;
    .step{
       margin-bottom: 40px;
    }
-   .step:last-child{
-      margin-bottom: 0;
+   .telefon__content{
+      flex-wrap: wrap;
+      justify-content: center;
+   }
+   .cashback__content{
+      flex-wrap: wrap;
    }
 }
+
 @media (max-width:690px){
    .cashback__content{
       flex-wrap: wrap;
@@ -336,6 +410,37 @@ color: #94A2B3;
    //    width: calc(50px + (287 - 100) * ((100vw - 320px)/(1520 - 320)));
    //    margin-left: calc(-50px + (0 + 120) * ((100vw - 320px)/(1520 - 320)));
    // }
+   //telefon
+   .telefon__text{
+      font-size: calc(18px + (40 - 18) * ((100vw - 320px)/(1520 - 320)));
+      margin-bottom: calc(26px + (0 - 26) * ((100vw - 320px)/(1520 - 320)));
+   }
+   .telefon__input{
+      max-width: calc(300px + (425 - 300) * ((100vw - 320px)/(1520 - 320)));
+      font-size: calc(19px + (26 - 19) * ((100vw - 320px)/(1520 - 320)));
+      padding-top: calc(15px + (20 - 15) * ((100vw - 320px)/(1520 - 320)));
+      padding-bottom: calc(15px + (20 - 15) * ((100vw - 320px)/(1520 - 320)));
+      padding-left: calc(25px + (40 - 25) * ((100vw - 320px)/(1520 - 320))); 
+      padding-right: calc(115px + (160 - 115) * ((100vw - 320px)/(1520 - 320))); 
+      // padding: 20px 160px 20px 40px;
+   }
+   .telefon__input::placeholder{
+      font-size: calc(19px + (26 - 19) * ((100vw - 320px)/(1520 - 320)));
+   }
+   .telefon__button{
+      padding-top: calc(7px + (10 - 7) * ((100vw - 320px)/(1520 - 320)));
+      padding-bottom: calc(7px + (10 - 7) * ((100vw - 320px)/(1520 - 320)));
+      padding-left: calc(7px + (10 - 7) * ((100vw - 320px)/(1520 - 320)));
+      padding-right: calc(7px + (10 - 7) * ((100vw - 320px)/(1520 - 320)));
+      top:  calc(11px + (13 - 11) * ((100vw - 320px)/(1520 - 320)));
+   }
+   .telefon__button img{
+      width: calc(18px + (27 - 18) * ((100vw - 320px)/(1520 - 320)));
+      height: calc(18px + (27 - 18) * ((100vw - 320px)/(1520 - 320)));
+   }
+   .telefon__content{
+      padding-top: calc(36px + (54 - 36) * ((100vw - 320px)/(1520 - 320)));
+   }
 }
 
 

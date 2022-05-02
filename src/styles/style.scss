@@ -325,12 +325,11 @@ color: #94A2B3;
    &__component {
       margin: 0 0 60px 0px;
       padding:40px 50px 25px 25px;
-      max-width: 680px;
+      width: 680px;
       min-height: 200px;
       background: #F6F6F6;
       border-radius: 21px;
       display: flex;
-      justify-content: space-between;
    }
 }
 .component {

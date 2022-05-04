@@ -232,6 +232,128 @@ color: #94A2B3;
       max-width: 300px;
    }
 }
+// //completeaza
+// .completeaza {
+//    margin: 0 0 200px 0;
+//    &__content {
+//    }
+
+//    &__title {
+//       font-weight: 700;
+//       font-size: 50px;
+//       line-height: 152%;
+//       text-align: center;
+//       color: #001A49;
+//    }
+
+//    &__subtitle {
+//       font-weight: 300;
+//       font-size: 20px;
+//       line-height: 150%;
+//       text-align: center;
+//       color: #57606A;
+//       margin: 0 0 90px 0;
+//    }
+
+//    &__blocks {
+//       display: flex;
+//       justify-content: space-between;
+//    }
+// }
+// .blocks {
+
+//    &__item {
+      
+//    }
+
+//    &__info {
+//       height: 200px;
+//       display: flex;
+//       background: #EB242A;
+//       border: 2px solid #EB242A;
+//       border-radius: 21px;
+//       padding: 35px 40px;
+//       transition: background-color 0.3s ease 0s;
+//    }
+//    &__info:hover{
+//       background-color: #ffffff;
+//       cursor: pointer;
+//       .text-info__title{
+//          color: #001A49;
+//       }
+//       .text-info__text{
+//          color: #001A49;
+//       }
+//       .info__img-one{
+//          filter: invert(.5) sepia(1) saturate(100) hue-rotate(800deg);
+//       }
+//    }
+
+//    &__values {
+//    }
+// }
+// .info {
+//    &__text-info{
+//       margin: 0 75px 0 0;
+//    }
+//    &__img-one{
+//       max-height: 50px;
+//       margin: 0 60px 0 0;
+//    }
+//    &__img-two{
+//       margin: auto 0;
+//       background-color: #ffffff;
+//       padding: 15px;
+//       border-radius: 50px;
+//       //height: 60px;
+//    }
+   
+// }
+// .text-info{
+
+//    &__title{
+//       font-weight: 700;
+//       font-size: 24px;
+//       line-height: 119%;
+//       color: #FFFFFF;
+//    }
+//    &__title:first-child{
+//       max-width: 310px;
+//    }
+//    .title-two{
+//       max-width: 200px;
+//    }
+
+//    &__text {
+//       max-width: 370px;
+//       font-family: 'Mulish';
+//       font-weight: 500;
+//       font-size: 16px;
+//       line-height: 150%;
+//       color: #FFFFFF;
+//    }
+// }
+// .title-two{
+//    max-width: 200px;
+// }
+// .values {
+
+//    &__title {
+//    }
+
+//    &__img-one {
+//    }
+
+//    &__form {
+//    }
+
+//    &__input {
+//    }
+
+//    &__button {
+//    }
+// }
+
 //telefon
 .telefon {
       background-color: #EB242A;
@@ -464,9 +586,6 @@ color: #94A2B3;
       border-bottom: 1px solid #FFFFFF;
    }
 
-   &__logo {
-   }
-
    &__pages {
       flex: 1 1 auto;
       
@@ -602,7 +721,13 @@ color: #94A2B3;
       max-width: calc(320px + (580 - 320) * ((100vw - 320px)/(1520 - 320)));
    }
    .calculeaza{
-      margin-bottom: calc(60px + (120 - 60) * ((100vw - 320px)/(1520 - 320)));;
+      margin-bottom: calc(60px + (120 - 60) * ((100vw - 320px)/(1520 - 320)));
+   }
+   .calculeaza::before{
+      width: calc(620px + (1557 - 620) * ((100vw - 320px)/(1520 - 320)));
+      height: calc(380px + (829 - 380) * ((100vw - 320px)/(1520 - 320)));
+      top: calc(320px + (0 - 320) * ((100vw - 320px)/(1520 - 320)));
+      box-shadow: inset 30px 20px 40px 10px rgb(255, 255, 255);
    }
    //cashback
    .cashback{

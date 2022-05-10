@@ -92,7 +92,7 @@
                     </div>
                 </div>
 
-                <!-- <div class="completeaza">
+                <div class="completeaza">
                     <div class="completeaza__container">
                         <div class="completeaza__content">
                             <div class="completeaza__title">
@@ -104,8 +104,8 @@
                             <div class="completeaza__blocks blocks">
 
                                 <div class="blocks__item">
-                                    <div class="blocks__info info">
-                                        <img  class="info__img-one" src="/src/images/completeaza/itemOne.svg" alt="picture">
+                                    <div class="blocks__info info accordion">
+                                        <img  class="info__img-one" src="/src/images/completeaza/blockOne.svg" alt="picture">
                                         <div class="info__text-info text-info">
                                             <div class="text-info__title">
                                                 ÎNCARCĂ POZE CU PAȘAPORTUL TEHNIC
@@ -114,16 +114,20 @@
                                                 Încarcă poze cu pașaportul tehnic față și verso al autovehiculului, lasă-ne datele de contact și vei primi oferta de preț exact în doar câteva minute.
                                             </div>
                                         </div>
-                                        <img class="info__img-two" src="/src/images/completeaza/itemOne1svg.svg" alt="picture">
+                                        <img class="info__img-two" src="/src/images/completeaza/karret.svg" alt="picture">
                                     </div>
 
-                                    <div class="blocks__values values">
+                                    <div class="blocks__values values accordion-body">
                                         <div class="values__title">
-
+                                            <img class="values__titlesvg" src="/src/images/completeaza/valueTitlebg.svg" alt="title_img">
+                                            <p>ÎNCARCĂ POZA</p>
+                                            <img class="values__questionsvg title-quesionsvg accordion" src="/src/images/completeaza/questionImage.svg" alt="title_img">
+                                            <div class="values__cards-img cards-img accordion-body">
+                                                <img class="cards-img__card" src="/src/images/completeaza/card_values_block/card-one.svg" alt="cards one image">
+                                                <img class="cards-img__card" src="/src/images/completeaza/card_values_block/card-two.svg" alt="cards one image">
+                                            </div>
                                         </div>
-                                        <div class="values__img-one">
-
-                                        </div>
+                                            
                                         <form class="values__form" action="#">
                                             <input class="values__input" type="text" placeholder="Număr de telefon" >
                                             <input class="values__input" type="text" placeholder="E-mail">
@@ -131,32 +135,34 @@
                                         </form>
                                     </div>
                                 </div>
+
                                 <div class="blocks__item">
-                                    <div class="blocks__info info">
-                                        <img  class="info__img-one" src="/src/images/completeaza/itemTwoo.svg" alt="picture">
+                                    <div class="blocks__info info accordion">
+                                        <img  class="info__img-one" src="/src/images/completeaza/blockTwo.svg" alt="picture">
                                         <div class="info__text-info text-info">
                                             <div class="text-info__title title-two">
                                                 COMPLETEAZĂ MANUAL
                                             </div>
-                                            <div class="text-info__text">
+                                            <div class="text-info__text text-two">
                                                 Lasă-ne detaliile mai jos și vei primi oferta de preț exact în doar câteva minute.
                                             </div>
                                         </div>
-                                        <img class="info__img-two" src="/src/images/completeaza/itemOne1svg.svg" alt="picture">
+                                        <img class="info__img-two" src="/src/images/completeaza/karret.svg" alt="picture">
                                     </div>
 
-                                    <div class="blocks__values values">
-                                        <div class="values__title">
-
-                                        </div>
-                                        <div class="values__img-one">
-
-                                        </div>
-                                        
+                                    <div class="blocks__values values accordion-body">
                                         <form class="values__form" action="#">
-                                            <input class="values__input" type="text" placeholder="Număr de telefon" >
+                                            <input class="values__input" type="text" placeholder="IDNP" >
+                                            <img class="values__questionsvg-two values__questionsvg accordion" src="/src/images/completeaza/questionImage.svg" alt="title_img">
+                                            <img class="values__block-two-card-one values__block-two-card accordion-body" src="/src/images/completeaza//blockTwoImageCardOne.svg" alt="cards image">
+                                            <input class="values__input" type="text" placeholder="Numărul de inmatriculare">
+                                            <div class="values__help-block">
+                                                <img class="values__questionsvg-three values__questionsvg accordion" src="/src/images/completeaza/questionImage.svg" alt="title_img">
+                                                <img class="values__block-two-card-two values__block-two-card accordion-body" src="/src/images/completeaza/blockTwoImageCardTwo.svg" alt="cards image">
+                                            </div>
+                                            <input class="values__input" type="text" placeholder="Număr de telefon">
                                             <input class="values__input" type="text" placeholder="E-mail">
-                                            <button class="values__button" type="submit" alt="values-button">Trimite</button>
+                                            <button class="values__button" type="submit" alt="values-button">Calculează</button>
                                         </form>
                                     </div>
                                 </div>
@@ -164,7 +170,7 @@
                             </div>
                         </div>
                     </div>
-                </div> -->
+                </div>
         
                 <div class="telefon">
                     <div class="telefon__container">
@@ -174,7 +180,9 @@
                             </div>
                             <form class="telefon__number" action="#">
                                 <input class="telefon__input" type="text" placeholder="+373 69 22 22 22" id="phone">
-                                <button class="telefon__button" type="submit" ><img src="/src/images/telefon/si-glyph_call-forward.svg" alt="telefon-button"></button>
+                                <button class="telefon__button" type="submit" >
+                                    <img src="/src/images/telefon/si-glyph_call-forward.svg" alt="telefon-button">
+                                </button>
                             </form>
                             
                         </div>

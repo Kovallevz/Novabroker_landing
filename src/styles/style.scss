@@ -262,7 +262,7 @@ color: #94A2B3;
 .blocks {
 
    &__info {
-      max-width: 703px;
+      //max-width: 703px;
       min-width: 320px;
       height: 200px;
       display: flex;
@@ -290,10 +290,15 @@ color: #94A2B3;
 
    &__values {
       position: relative;
-      max-width: 703px;
+      //max-width: 703px;
    }
    &__item{
-      margin-bottom: 50px;
+      max-width: 703px;
+      margin: 0 10px 50px 10px;
+      
+   }
+   &__item:nth-child(1){
+      margin-bottom: 20px;
    }
 }
 .accordion.active{
@@ -367,6 +372,7 @@ color: #94A2B3;
       display: flex;
       align-items: center;
       flex-wrap: wrap;
+      margin-bottom: 20px;
    }
    &__title p{
       margin-right: 12px;
@@ -453,19 +459,26 @@ color: #94A2B3;
    }
    &__cards-img {
       background-image: url('/src/images/completeaza/card_values_block/bg-cards.svg');
-      background-size: auto;
       background-repeat: no-repeat;
       padding: 52px 33px 90px;
+      background-size: cover;
+      -moz-background-size: cover;  
+      background-position: center;
+      flex-wrap: wrap;
+      margin: 0 0 40px 0 ;
    }
 }
 .title-quesionsvg{
    margin-bottom: 40px;
    left: 285px;
+   
 }
 .cards-img {
 
    &__card{
       max-width: 316px;
+      display: flex;
+      justify-content: center;
    }
 }
 //telefon

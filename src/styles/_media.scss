@@ -5,6 +5,16 @@
    .footer__subtitle{
       text-align: left;
    }
+   .values__button{
+      margin: 0 auto;
+   }
+   .values__block-two-card{
+      margin: 0 auto 20px;
+   }
+   .values__cards-img{
+     max-width: calc(230px + (438 - 230) * ((100vw - 320px)/(690 - 320))); 
+   }
+   
 }
 @media (max-width:990px){
    .asigurarea__steps{
@@ -29,6 +39,14 @@
    .ofera__components{
       justify-content: center;
    }
+}
+@media (max-width:1341px){
+   .completeaza__blocks{
+      justify-content: center;
+   }
+   // .blocks__item:first-child{
+   //    margin-right: 0;
+   // }
 }
 @media (max-width:1455px){
    .rca__content{
@@ -113,6 +131,9 @@
       margin: 0px -27px;
    }
    //asigurarea
+   .asigurarea{
+      margin-bottom: calc(60px + (120 - 60) * ((100vw - 320px)/(1520 - 320)));;
+   }
    .asigurarea__title{
       font-size: calc(26px + (50 - 26) * ((100vw - 320px)/(1520 - 320)));
    }
@@ -133,11 +154,19 @@
 
 
    //completeaza
+   .completeaza{
+      margin-bottom: calc(65px + (150 - 65) * ((100vw - 320px)/(1520 - 320)));
+   }
    .completeaza__title{
       font-size: calc(26px + (50 - 26) * ((100vw - 320px)/(1520 - 320)));
    }
    .completeaza__subtitle{
       font-size: calc(14px + (20 - 14) * ((100vw - 320px)/(1520 - 320)));
+      margin-bottom: calc(50px + (90 - 50) * ((100vw - 320px)/(1520 - 320)));
+   }
+   .blocks__item{
+      max-width: calc(320px + (703 - 320) * ((100vw - 320px)/(1520 - 320)));
+      margin-bottom: calc(0px + (50 - 0) * ((100vw - 320px)/(1520 - 320)));
    }
    .blocks__info{
       
@@ -176,9 +205,51 @@
       right: calc(30px + (0 - 30) * ((100vw - 320px)/(1520 - 320)));
    }
    .info__text-info{
-      margin-right: calc(10px + (40 - 10) * ((100vw - 320px)/(1520 - 320)));;
+      margin-right: calc(10px + (40 - 10) * ((100vw - 320px)/(1520 - 320)));
    }
-
+   .values__title p{
+      font-size: calc(21px + (28 - 21) * ((100vw - 320px)/(1520 - 320)));
+   }
+   .values__titlesvg{
+      height: calc(41px + (55 - 41) * ((100vw - 320px)/(1520 - 320)));
+      margin-right: calc(17px + (22 - 17) * ((100vw - 320px)/(1520 - 320)));
+   }
+   .values__input{
+      padding-top: calc(15px + (24 - 15) * ((100vw - 320px)/(1520 - 320)));
+      padding-bottom: calc(15px + (24 - 15) * ((100vw - 320px)/(1520 - 320)));
+      padding-left: calc(15px + (24 - 15) * ((100vw - 320px)/(1520 - 320))); 
+   }
+   .values__button{
+      padding-top: calc(10px + (20 - 10) * ((100vw - 320px)/(1520 - 320)));
+      padding-bottom: calc(10px + (20 - 10) * ((100vw - 320px)/(1520 - 320)));
+      padding-right: calc(100px + (70 - 100) * ((100vw - 320px)/(1520 - 320)));
+      padding-left: calc(100px + (70 - 100) * ((100vw - 320px)/(1520 - 320)));
+      min-width: calc(320px + (270 - 320) * ((100vw - 320px)/(1520 - 320))); 
+   }
+   .values__input:nth-child(2){
+      margin-bottom: calc(25px + (60 - 25) * ((100vw - 320px)/(1520 - 320))); 
+   }
+   .title-quesionsvg{
+      left: calc(210px + (285 - 210) * ((100vw - 320px)/(1520 - 320))); 
+   }
+   .values__questionsvg-three{
+      top: calc(-75px + (-90 + 75) * ((100vw - 320px)/(1520 - 320))); 
+   }
+   .values__block-two-card{
+      max-width: calc(230px + (375 - 230) * ((100vw - 320px)/(1520 - 320))); 
+   }
+   .values__cards-img{
+      //max-width: 230px;
+      margin: 0 auto;
+      //max-width: calc(215px + (375 - 230) * ((100vw - 320px)/(1520 - 320))); 
+      padding-top: calc(30px + (52 - 15) * ((100vw - 320px)/(1520 - 320)));
+      padding-bottom: calc(15px + (90 - 15) * ((100vw - 320px)/(1520 - 320)));
+      padding-right: calc(0px + (33 - 0) * ((100vw - 320px)/(1520 - 320)));
+      padding-left: calc(5px + (33 - 5) * ((100vw - 320px)/(1520 - 320)));
+   }
+   .cards-img__card{
+      max-width: calc(190px + (375 - 190) * ((100vw - 320px)/(1520 - 320)));
+   }
 
 
    //telefon
